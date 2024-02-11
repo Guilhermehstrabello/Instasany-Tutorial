@@ -8,11 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'green-primary': '#1D3531',
+        'green-actived': '#5D8A83',
+        'green-border' : '#2A4B46',
+        'green-btn': '#CCEC60',
+        'green-title-card': '#719D96'
       },
+      maxWidth: {
+        grid: '1240px',
+        'text-hero': '1056px',
+        'area-icons': '855px',
+        'area-mockups': '957px',
+        'area-cards': '1320px'
+      },
+      height: {
+        'hero-section': '874px',
+        'area-cards': "562px"
+      },
+      backgroundImage: {
+        'hero': "url('/bg-hero.svg')"
+      }
     },
   },
   plugins: [],
